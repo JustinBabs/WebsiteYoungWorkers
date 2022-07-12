@@ -1,0 +1,174 @@
+body{
+	background-color: #53ff1a;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+.headers{
+	text-align: center;
+	font-size: 26px;
+	font-family: bold;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.block{
+	float: left;
+	width: 50%;
+	border: 1px solid #000;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.text{
+	text-align: center;
+	font-family: bold;
+	font-size: 30px;
+	overflow: hidden;
+	padding-top: 120px;
+}
+
+.paragraph{
+	text-align: center;
+	font-family: bold;
+	font-size: 18px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+
+#picture{
+	background-image: url("../images/lawnmowing2.jpg");
+	background-position: center;
+	background-size: 100%;
+	min-height: 400px; 
+}
+
+#picture2{
+	background-image: url("../images/snowshoveling.jpg");
+	background-position: center;
+	background-size: 100%;
+	min-height: 400px; 
+}
+
+#picture3{
+	background-image: url("../images/leafraking.jpg");
+	background-position: center;
+	background-size: 100%;
+	min-height: 400px; 
+}
+
+#picture4{
+	background-image: url("../images/plantwatering.jpg");
+	background-position: center;
+	background-size: 100%;
+	min-height: 400px; 
+}
+
+#picture5{
+	background-image: url("../images/weedkilling.jpg");
+	background-position: center;
+	background-size: 100%;
+	min-height: 400px; 
+}
+
+#picture6{
+	background-image: url("../images/grasstriming.jpg");
+	background-position: center;
+	background-size: 100%;
+	min-height: 400px; 
+}
+
+#picture7{
+	background-image: url("../images/hedgetrimming.jpg");
+	background-position: center;
+	background-size: 100%;
+	min-height: 400px; 
+}
+
+#picture8{
+	background-image: url("../images/8thpic.jpeg");
+	background-position: center;
+	background-size: 100%;
+	min-height: 400px; 
+}
+
+#main-header{
+	background-color: green;
+	color: #fff;
+	text-align: center;
+	font-size: 26px;
+	color: black;
+}
+
+#main-footer{
+	color: #fff;
+	background-color: #333;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-top: 2100px;
+}
+
+#navbar{
+	background-color: #269900;
+	color:#fff;
+	text-align: right;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: bold;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-right: 15px;
+}
+
+#showcase{
+	background-image: url("../images/showcase.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:100%;
+	min-height: 400px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color: black;
+	font-size: 60px;
+	line-height: 2em;
+	padding-top: 30px;
+}
+
+@media(max-width:600px){
+	#main{
+		width: 100%;
+		float:none;
+	}
+
+	#sidebar{
+		width: 100%;
+		float:none;
+	}
+}

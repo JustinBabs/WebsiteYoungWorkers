@@ -1,0 +1,132 @@
+body{
+	background-color: #53ff1a;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+.headers{
+	text-align: center;
+	font-size: 26px;
+	font-family: bold;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.block{
+	float: left;
+	width: 50%;
+	height: 50px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+	border-color: black;
+}
+
+.block2{
+	float: left;
+	width: 100%;
+	height: 50px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+	border-color: black;
+}
+
+.text{
+	text-align: center;
+	font-family: bold;
+	font-size: 24px;
+	overflow: hidden;
+	padding-top: 120px;
+}
+
+.paragraph{
+	text-align: center;
+	font-family: bold;
+	font-size: 18px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+
+#main-header{
+	background-color: green;
+	color: #fff;
+	text-align: center;
+	font-size: 26px;
+	color: black;
+}
+
+#main-footer{
+	color: #fff;
+	background-color: #333;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-top: 555px;
+}
+
+#navbar{
+	background-color: #269900;
+	color:#fff;
+	text-align: right;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: bold;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-right: 15px;
+}
+
+#button1{
+	background-image: url("../images/Snowshoveling2.jpg");
+	background-position: center;
+	background-size:100%;
+	background-repeat: no-repeat;
+	min-height: 500px;
+	font-size: 28px;
+	font-family: bold;
+}
+
+#button2{
+	background-image: url("../images/backyard.jpg");
+	background-position: center;
+	background-size:100%;
+	background-repeat: no-repeat;
+	min-height: 500px;
+	font-size: 28px;
+	font-family: bold;
+}
+
+#button3{
+	background-image: url("../images/login.jpg");
+	background-position: center;
+	background-size:100%;
+	background-repeat: no-repeat;
+	min-height: 500px;
+	font-size: 28px;
+	font-family: bold;
+	margin-bottom: 35px;
+}

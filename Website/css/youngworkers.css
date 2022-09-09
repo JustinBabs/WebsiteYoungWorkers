@@ -1,16 +1,26 @@
 body{
-	background-color: #acb902;
-	color: black;
+	background-color: #f7f7f7;
+	color: rgb(255, 255, 255);
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 1.6em;
 	margin: 0;
 }
 
+a:link{
+	color:#fff;
+	text-decoration: none;
+}
+a:hover{
+	color:#f7f7f7;
+	text-decoration: underline;
+}
+
 .container{
 	width: 80%;
 	margin:auto;
-	overflow: hidden;
+	overflow: auto;
+	color:rgb(0, 0, 0)
 }
 
 .headers{
@@ -64,45 +74,105 @@ body{
 }
 
 #main-header{
-	background-color: green;
+	background-color: rgb(255, 255, 255);
 	color: #fff;
 	text-align: center;
 	font-size: 26px;
 	color: black;
+	height:100px;
 }
 
+#topleft {
+	position: absolute;
+	top: 1px;
+	left: 2px;
+	z-index:3;
+	max-width: 100px;
+	max-height: 100px;
+  }
+
 #navbar{
-	background-color: #269900;
+	background-color: #333;
 	color:#fff;
 	text-align: right;
+	position:sticky;
+	position: -webkit-sticky;
+	width: 100%;
+	z-index:2;
+	overflow:visible;
 }
 
 #navbar ul{
 	padding: 0;
+	margin: 0;
 	list-style: none;
+	position:sticky;
+	top: 0;
+	position: -webkit-sticky; /* Safari */
+
 }
 
 #navbar li{
-	display: inline;
+	display: inline-block;;
 }
+#navbar li a:hover:not(.active) {
+	background-color:#111;;
+  }
+
 
 #navbar a{
-	color: black;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 	font-size: 18px;
 	font-family: bold;
-	min-height: 300px;
-	margin-bottom: 30px;
+	padding: 14px 16px;
+	margin-bottom: 0px;
 	text-align: center;
-	padding-right: 15px;
+	display:block;
 }
 
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: relative;
+	background-color: #000000;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+  }
+
+.active{
+	background-color: #04AA6D;
+
+}
 #showcase{
-	background-image: url("../images/showcase.jpg");
+	background-image: url("../images/teenyardwork.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:100%;
-	min-height: 400px;
+	min-height: 800px;
 	margin-bottom: 30px;
 	text-align: center;
 }

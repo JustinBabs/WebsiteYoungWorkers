@@ -25,7 +25,7 @@ body{
 	float: left;
 	width: 50%;
 	border: 1px solid #000;
-	padding: 10px;
+	padding: 0px;
 	box-sizing: border-box;
 }
 
@@ -45,7 +45,17 @@ body{
 	overflow: hidden;
 }
 
-#picture{
+img:hover{
+	opacity: 0.5;
+}
+background-image:hover{
+	opacity: 0.5;
+}
+
+
+
+
+#picture1{
 	background-image: url("../images/lawnmowing2.jpg");
 	background-position: center;
 	background-size: 100%;

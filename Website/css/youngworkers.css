@@ -167,22 +167,7 @@ a:hover{
 	background-color: #04AA6D;
 
 }
-#showcase{
-	background-image: url("../images/teenyardwork.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size:100%;
-	min-height: 800px;
-	margin-bottom: 30px;
-	text-align: center;
-}
 
-#showcase h1{
-	color: black;
-	font-size: 60px;
-	line-height: 2em;
-	padding-top: 30px;
-}
 
 #main{
 	float: left;

@@ -9,11 +9,12 @@
 	<meta name="keywords content="Students, lawnmowing, lawncare, jobs, housework">
 	<meta name="authors" content="Amaan, Justin">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 	
-
-
 <nav>
 	<a href="youngworkers.html">
 		<img id="topleft" src="../images/logo for young workers.png" alt="logo">
@@ -37,54 +38,106 @@
 
 <section id="showcase">
 	<div>
-		<h2>Finding The Perfect Student</h2>
-		<h2> Service For Your Housework</h2>
+		<h2 style="color: white;">Finding The Perfect Student</h2>
+		<h2 style="color: white;"> Service For Your Housework</h2>
 		<button class ="button">Book Now</button>
 		<input class = "searchtext" placeholder=" Try 'Lawnmowing'">
 		<button type="submit"><i class = "searchtext">Search</i></button>
 	</div>	
 </section>
 
-<div class="container">
 
-		<div>
-			<h2 class="headers">Popular Services</h2>
-		</div>
-	<div id="block1" class="block"></div>	
-	<div class="blocktext">
-	<h3 class="headers">Lawnmowing</h3>
-	<img src="../images/studentlawnmowing.jpg" alt="logo">
-	</div>
 
-	<div id="block2" class="block2"></div>
-	<div class="blocktext">
-	<h3 class="headers2">Connect with a student in your area</h3>
-	<p class="text">You'll be able to chat with a student in your area to set up an appointment. You can also see their past jobs, 
-	reviews and experience to make sure your picking the right person!</p>
-	</div>
+<h2 class="headers">Popular Services</h2>
+<div class="row slider">
 
-	<div id="block3" class="block"></div>	
-	<div class="blocktext">
-	<h3 class="headers2">Get your yardwork done!</h3>
-		<p class="text">Set-up a date and time with the worker to get your yardwork done!</p>
-	</div>
+		<img class= "serviceimages" src="../images/lawnmowing3.jpg" alt="Person Lawnmowing">
+			<p class="imgdescription">Lawnmowing</p>
 
-	<div class="container">
-		<section>
-		<h3 class="headers">Why Work With Us?</h3>
-		<p class="text">There are several benefits for signing up with us as a landscaper. At Young Workers, we realize how competitive the
+		<img class= "serviceimages" src="../images/snowshoveling.png" alt="Person Snow Shoveling">
+		
+		<img class= "serviceimages" src="../images/cleaning.png" alt="Person Cleaning Picture">
+
+		<img class= "serviceimages" src="../images/funitureassembly.png" alt="Funiture Assembly Picture">
+
+		<img class= "serviceimages" src="../images/dogwalking2.jpg" alt="Dog Walking Picture">
+
+		<img class= "serviceimages" src="../images/babysitting.jpg" alt="babysitting picture">
+
+</div>
+
+	<h3 class="headers">Why Work With Us?</h3>
+		<ul>
+			<img id="imagebesidelist" src="../images/studentdoesdeal.jpg">
+			<li><strong>Affordable</strong></li>
+				<p class ="description">Our Markup Is Very Low Making Us The <br>Most Affordable Option In The Market</p>
+			<li><strong>Quality Workers</strong></li>
+				<p class = "description">We Make Sure Our Students Are Trutworthy, <br>Obedient & Hard Working Students Before Signing Up</p>
+			<li><strong>Support Your Local Community</strong></li>
+				<p class= "description">Students Have Trouble Finding Work So You Can <br>Help Students Make Money For Post Graduate Studies!</p>
+			
+		</ul>
+			
+		<!--
+
+			There are several benefits for signing up with us as a landscaper. At Young Workers, we realize how competitive the
 		 job market has gotten, even more so for students. Working with us, you'll be able to acquire work experience, choose your hours and
 		 salary, decide what yardwork suits you as well as help out people in your community all at the same time! We want students like 
 		 yourself to be able to make money wether it be for your everyday expenses or saving for post-secondary studies, it's important to
 		 have money in your pocket. So come Sign-up and start helping your community while earning what could be your first paycheque.</p>
-		</section>
-	</div>
+		-->
 
-</div>
 	<footer id="main-footer">
 		<p>Copyright &copy2020; Young Workers</p>
 		<p>Founders: Amaan Ali, Justin Babalow</p>
   		<p><a href="mailto:amaan.a2106@gmail.com">amaan.a2106@gmail.com</a></p>
 	</footer>
+
+
+<script type="text/javascript">
+
+
+$('.slider').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+</script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
